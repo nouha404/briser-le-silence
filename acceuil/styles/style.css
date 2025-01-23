@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Qasbyne';
+    src: url('./font/Qasbyne.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.stats {
+    background: #F9F095;
+}
+.video-container {
+    position: relative;
+}
+.video-container img {
+    max-height: 500px;
+    object-fit: cover;
+}
+.services , .about-section, .actu p {
+    font-family: "Poppins", serif;
+}
+.services p {
+    font-weight: 400;
+    color: #000000;
+    font-size: 1.2rem;
+}
+.services .text-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mission-item img  {
+    max-height: 280px;
+}
+.actu {
+    width: 100%;
+}
+.help-number {
+    font-family: 'Qasbyne', sans-serif;
+    font-size: 2.25rem;
+}
+.number .tester{
+    margin: 0 auto;
+}
+.text-victim {
+    font-family: 'Qasbyne', sans-serif;
+}
+.whosvictim p {
+    font-family: "Poppins", serif;
+    font-size: 22px;
+}
+.btn-victim {
+    font-family: "Poppins", serif;
+    font-size: 32px;
+} 
+.consequences , .textPopin{
+    font-family: "Poppins", serif;
+}
+.consequences h3 {
+    font-weight: 500;
+}

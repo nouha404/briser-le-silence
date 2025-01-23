@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Briser le silence</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="container mx-auto px-4 py-2 flex justify-between items-center bg-white flex-wrap">
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="Logo briser le silence" class="h-10">
+        </div>
+        <div id="burger-container" class="md:hidden"></div>
+        
+
+        <nav id="menu" class="menu hidden  md:flex gap-4 text-xl text-gray-700 flex-wrap">
+            <a href="./situation/index.html" class="hover:text-blue-500">Ma situation</a>
+            <a href="" class="hover:text-blue-500">Je suis témoin</a>
+            <a href="" class="hover:text-blue-500">M'engager</a>
+            <a href="" class="hover:text-blue-500">Actualités</a>
+        </nav>
+        <!--
+        <div class="don  text-black text-center px-4 py-2 rounded-lg border border-black">
+            <a href="" class="font-bold">Dons</a>
+        </div>
+        --->
+    </header>
+    <section class="hero-section bg-cover bg-center min-h-[65vh] flex justify-center items-center" style="background-image: url('./assets/img/section.png');">
+        <div class="info lg:bg-yellow-200  max-w-md lg:border border-black rounded-lg p-6 text-center lg:shadow-lg">
+            <div class="cont mb-4">
+                <h2 class="text-2xl font-bold mb-2">BESOIN D’AIDE ?</h2>
+                <p class="text-lg">Contactez notre association :</p>
+                <p class="text-lg font-semibold mt-1">📞 01 55 67 73 82</p>
+            </div>
+            <div class="list-puce text-left">
+                <p class="text-lg font-medium mb-2">Nous sommes disponibles pour :</p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>Vous écouter et vous soutenir sans jugement.</li>
+                    <li>Vous accompagner dans vos démarches (juridiques, administratives, etc.).</li>
+                    <li>Créer un plan de sécurité adapté à votre situation.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div class="number">
+        <h2 class="help-number mx-20">Numero d'aide</h2>
+        <div class="mx-20 grid lg:grid-cols-2 grid-rows-2 gap-4 ">
+            
+            <div class="px-10">
+                <h2 class="font-bold underline">17</h2>
+                    <li class="mx-5">Pour une intervention immédiate <br>
+                         en cas de danger ou de <br>
+                          violences en cours.</li>
+              
+            </div>
+            <div class=" ">
+                <p ><span class="font-bold underline">01 42 17 12 00</span> : Fédération Nationale des centres <br>
+                     d'information sur les droits des Femmes et des familles</p>
+                <li class="mx-5">Pour des informations sur vos droits ou un soutien juridique.</li>
+            </div>
+            <div class="  px-10">
+                <p ><span class="font-bold underline">119</span> : Enfances en danger</p>
+                <li class="mx-5">Pour signaler des violences ou négligences envers un enfant.</li>
+            </div>
+            <div class=" ">
+                <p ><span class="font-bold underline">3919</span> :  Violences faites aux femmes</p>
+                <li class="mx-5">Pour des conseils ou une orientation adaptée à votre situation.</li>
+            </div>
+        </div>
+    </div>
+    <div class="bg-yellow-200   px-4 py-6 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+        <div class="stat-item p-4 rounded-lg">
+            <h3 class="text-xl font-bold">1 FEMME SUR 3</h3>
+            <p class="mt-2">
+                Dans le monde a subi des violences <br>
+                 physiques ou sexuelles de la part de <br>
+                  son partenaire ou d’un autre agresseur <br>
+                   au cours de sa vie.
+            </p>
+        </div>
+        <div class="stat-item p-4 rounded-lg">
+            <h3 class="text-xl font-bold">220 000 femmes</h3>
+            <p class="mt-2">
+                Âgées de 18 à 75 ans <br> sont victimes de <br> violences conjugales <br>
+                 chaque année.
+            </p>
+        </div>
+        <div class="stat-item p-4 rounded-lg">
+            <h3 class="text-xl font-bold">80 % des violences conjugales</h3>
+            <p class=" mt-2">
+                Sont perpétrées dans un <br>
+                 cadre privé, ce qui rend le <br>
+                  signalement difficile pour les <br>
+                   victimes.
+            </p>
+        </div>
+    </div>
+
+    <div class="cta-section bg-gray-100 py-8 px-4 bg-white">
+        <div class="flex flex-col md:flex-row justify-center gap-4 mb-8">
+            <button class="bg-[#D6EF8B] text-white px-6 py-4 rounded-lg shadow-lg hover:bg-green-500">
+                Je suis victime<br>Que dois-je faire ?
+            </button>
+            <button class="bg-[#FFC7DD] text-white px-6 py-4 rounded-lg shadow-lg hover:bg-pink-600">
+                Je suis témoin de <br>
+                 violences domestiques<br>
+                 Que dois-je faire ?
+            </button>
+        </div>
+        <div class=" actu">
+            <h2 class="text-2xl md:text-3xl ml-20 mb-8 ">Actualités</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white border border-gray-300 rounded-lg shadow-md p-4">
+                    <img src="./assets/img/actu1.png" alt="Actualité 1" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <p class="text-xl ">Procès de Gérard Depardieu pour agressions sexuelles.</p>
+                    <button class="mt-4 bg-[#D6EF8B]  text-white px-4 py-2 rounded hover:bg-green-600">
+                        En savoir plus
+                    </button>
+                </div>
+                <div class="bg-white border border-gray-300 rounded-lg shadow-md p-4">
+                    <img src="./assets/img/actu2.png" alt="Actualité 2" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <p class="text-xl ">Mazan : plusieurs centaines de personnes à la marche silencieuse en soutien à Gisèle Pelicot.</p>
+                    <button class="mt-4 bg-[#D6EF8B]  text-white px-4 py-2 rounded hover:bg-green-600">
+                        En savoir plus
+                    </button>
+                </div>
+                <div class="bg-white border border-gray-300 rounded-lg shadow-md p-4">
+                    <img src="./assets/img/actu3.png" alt="Actualité 3" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <p class="text-xl">Un homme sous contrôle judiciaire pour avoir frappé son fils à coups de ceinture et de câble d'ordinateur.</p>
+                    <button class="mt-4 bg-[#D6EF8B]  text-white px-4 py-2 rounded hover:bg-green-600">
+                        En savoir plus
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-section bg-[#FFC7DD] py-10 px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
+            <div class="flex-shrink-0">
+                <img src="./assets/img/whos.png" alt="Qui sommes-nous ?" class="rounded-lg shadow-lg w-full md:w-[500px]">
+            </div>
+            <div class="text-section text-center md:text-left">
+                <h2 class="text-2xl md:text-3xl mb-4">Qui sommes nous ?</h2>
+                <p class="leading-relaxed">
+                    Nous sommes une association de bénévoles qui souhaitons lutter contre les violences domestiques.<br>
+                    À travers <span class="text-blue-600 underline ">"Briser le silence"</span>, nous voulons soutenir les victimes, sensibiliser le public<br>
+                    mais également former les bénévoles afin de prévenir et agir efficacement.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="services py-10 px-4 bg-white">
+        <h2 class="text-2xl md:text-3xl ml-20 mb-8">Nos services</h2>
+        <div class="flex flex-col md:flex-row md:items-center gap-8 max-w-6xl mx-auto">
+            <div class="text-section px-4 text-gray-700 text-center md:text-left">
+                <p class=" ">
+                    Nos services sont dédiés à l’accompagnement et au 
+                    <span class="text-[#FBA1C5]">soutien des victimes</span> de violences domestiques. Nous offrons 
+                    <span class="text-[#FBA1C5]">une écoute</span> active, des 
+                    <span class="text-[#FBA1C5]">conseils juridiques</span>, ainsi qu'une 
+                    <span class="text-[#FBA1C5]">aide psychologique</span> pour permettre aux victimes de retrouver leur sécurité et leur autonomie.
+                </p>
+                <br>
+                <p class=" ">
+                    En plus de ces services, nous aidons les victimes à retrouver un logement le temps de se reconstruire et de retrouver leur indépendance pour mieux protéger les victimes.
+                </p>
+            </div>
+            <div class="image-section flex-shrink-0 w-full md:w-[40%]">
+                <img src="./assets/img/services.png" alt="Nos services" class="rounded-lg shadow-lg w-full h-auto">
+            </div>
+        </div>
+    </div>
+
+    <div class="missions py-10 px-4 bg-yellow-100">
+        <h2 class="text-2xl md:text-3xl mb-8 text-center">Nos missions</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="mission-item text-center">
+                <img src="./assets/img/mission1.png" alt="Soutenir les victimes" class="rounded-lg shadow-lg w-full object-cover mb-4">
+                <h3 class="text-xl mb-2">Soutenir les victimes</h3>
+                <p class="">Offrir un accompagnement personnalisé et un soutien psychologique adapté.</p>
+            </div>
+            <div class="mission-item text-center">
+                <img src="./assets/img/mission2.png" alt="Sensibiliser le public" class="rounded-lg shadow-lg w-full object-cover mb-4">
+                <h3 class="text-xl mb-2">Sensibiliser le public</h3>
+                <p class="">Éduquer et informer pour prévenir les violences domestiques.</p>
+            </div>
+            <div class="mission-item text-center">
+                <img src="./assets/img/mission3.png" alt="Former des professionnels" class="rounded-lg shadow-lg w-full object-cover mb-4">
+                <h3 class="text-xl mb-2">Former des professionnels</h3>
+                <p class="">Préparer les intervenants à agir efficacement face aux situations de violence.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="video-section py-10 px-4 bg-white flex flex-col items-center">
+        <div class="video-container relative max-w-4xl w-full">
+            <img src="./assets/img/banner.png" alt="Vidéo" class="w-full rounded-lg shadow-lg">
+            <button class="absolute inset-0 flex items-center justify-center">
+                <img src="./assets/img/play-icon.png" alt="Play" class="h-16 w-16">
+            </button>
+        </div>
+    </div>
+    
+    <footer class="bg-yellow-200 py-6">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+            <div class="social-links flex justify-center md:justify-start gap-6">
+                <a href="#" class="text-black hover:text-blue-500">
+                    <img src="./assets/img/twitter-icon.png" alt="Twitter" class="h-8">
+                </a>
+                <a href="#" class="text-black hover:text-blue-500">
+                    <img src="./assets/img/instagram-icon.png" alt="Instagram" class="h-8">
+                </a>
+                <a href="#" class="text-black hover:text-blue-500">
+                    <img src="./assets/img/youtube-icon.png" alt="YouTube" class="h-8">
+                </a>
+                <a href="#" class="text-black hover:text-blue-500">
+                    <img src="./assets/img/facebook-icon.png" alt="Facebook" class="h-8">
+                </a>
+            </div>
+            <div class="contact-info text-center md:text-left space-y-1">
+                <p class="">01 49 67 89 90</p>
+                <p class="">briserlesilence@gmail.com</p>
+            </div>
+            <div class="legal text-center md:text-right space-y-1">
+                <p class="">Tous droits réservés</p>
+                <p class="">Politique de confidentialité</p>
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    
+</body>
+    <script src="./js/index.js"></script>
+</html>
